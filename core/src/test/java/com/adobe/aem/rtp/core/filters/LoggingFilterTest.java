@@ -52,7 +52,7 @@ class LoggingFilterTest {
     }
 
 
-    
+
     void doFilter(AemContext context) throws IOException, ServletException {
         MockSlingHttpServletRequest request = context.request();
         MockSlingHttpServletResponse response = context.response();
